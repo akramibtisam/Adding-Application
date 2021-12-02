@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>submit to get numbers values</description>
+        <field>sys_class_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>submit to get numbers values</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	var number1=g_form.getValue('number1');
+	var number2=g_form.getValue('number2');
+	var result=parseInt(number1)+parseInt(number2);
+	g_form.setDisplay('result',true);
+	function setvalue()
+	{
+		g_form.setValue('result',result);
+	}
+	setTimeout(setvalue(),100000);
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-02 15:44:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af1cb833874001105880206f8bbb35a2</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>submit to get numbers values</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adding_Application" source="x_715443_adding_ap">001a38bf870001105880206f8bbb35b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adding_Application">001a38bf870001105880206f8bbb35b3</sys_scope>
+        <sys_update_name>sys_script_client_af1cb833874001105880206f8bbb35a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-02 16:19:05</sys_updated_on>
+        <table>x_715443_adding_ap_numbers</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

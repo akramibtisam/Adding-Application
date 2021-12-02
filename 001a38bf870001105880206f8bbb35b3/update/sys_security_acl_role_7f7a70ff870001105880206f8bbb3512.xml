@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-02 15:35:52</sys_created_on>
+        <sys_id>7f7a70ff870001105880206f8bbb3512</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_715443_adding_ap_numbers.x_715443_adding_ap.user</sys_name>
+        <sys_package display_value="Adding_Application" source="x_715443_adding_ap">001a38bf870001105880206f8bbb35b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adding_Application">001a38bf870001105880206f8bbb35b3</sys_scope>
+        <sys_security_acl display_value="x_715443_adding_ap_numbers">f37a70ff870001105880206f8bbb3510</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7f7a70ff870001105880206f8bbb3512</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-02 15:35:52</sys_updated_on>
+        <sys_user_role display_value="x_715443_adding_ap.user" name="x_715443_adding_ap.user">521a7433870001105880206f8bbb3592</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
