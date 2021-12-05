@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>submit to get numbers values</description>
+        <field>sys_class_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>submit to get numbers values</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    //Type appropriate comment here, and begin script below
+    var number1 = g_form.getValue('number1');
+    var number2 = g_form.getValue('number2');
+    var result = parseInt(number1) + parseInt(number2);
+    g_form.setValue('result', result);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-02 15:44:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af1cb833874001105880206f8bbb35a2</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>submit to get numbers values</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adding_Application" source="x_715443_adding_ap">001a38bf870001105880206f8bbb35b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adding_Application">001a38bf870001105880206f8bbb35b3</sys_scope>
+        <sys_update_name>sys_script_client_af1cb833874001105880206f8bbb35a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-05 16:26:47</sys_updated_on>
+        <table>x_715443_adding_ap_numbers</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adding_Application">001a38bf870001105880206f8bbb35b3</application>
+        <file_path/>
+        <instance_id>47ccb63bdb621380b2e05d00cf961963</instance_id>
+        <instance_name>dev61296</instance_name>
+        <name>sys_script_client_af1cb833874001105880206f8bbb35a2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;submit to get numbers values&lt;/description&gt;&lt;field&gt;sys_class_name&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;submit to get numbers values&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+    //Type appropriate comment here, and begin script below
+    var number1 = g_form.getValue('number1');
+    var number2 = g_form.getValue('number2');
+    var result = parseInt(number1) + parseInt(number2);
+    g_form.setValue('result', result);
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-02 15:44:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;af1cb833874001105880206f8bbb35a2&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;submit to get numbers values&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Adding_Application" source="x_715443_adding_ap"&gt;001a38bf870001105880206f8bbb35b3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Adding_Application"&gt;001a38bf870001105880206f8bbb35b3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_af1cb833874001105880206f8bbb35a2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-05 16:26:47&lt;/sys_updated_on&gt;&lt;table&gt;x_715443_adding_ap_numbers&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1789331662</payload_hash>
+        <record_name>submit to get numbers values</record_name>
+        <reverted_from/>
+        <source>e4187840871001105880206f8bbb35a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-05 16:26:47</sys_created_on>
+        <sys_id>03e228b4871001105880206f8bbb3519</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d8b6b55fa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-05 16:26:47</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>0be228b4f9100110e86f8c43a2271218</update_guid>
+        <update_guid_history>0be228b4f9100110e86f8c43a2271218:-1789331662,b38024b471100110773a82ad0293f067:1842264235,4d6409b73f400110eb629e3246842562:-855700392,694485b75a4001108af95feffe5cb1ec:-1703451610,375385b7c5400110b04e036c26f555e5:-1877509755,7513c17765400110bd6812ee9ea6a7ab:1659850707,0ee10577cf400110f31cc862d2332888:-1013083748,7bb1417714400110d4dd558b7bf6f24b:1673335388,0a91c1f3dd4001106e4e8d4b98052418:-929133150,ff314537964001104f9f47c3d5f1f766:-1187313429,7ab04137cb400110aadba0732af64027:-148010590,f2cf38b3dc40011074fde5b5f990a502:2018745891,c4af7c731940011024237bd7e8a752d0:-1325304476,4c5ff0f3764001107305c1e77a4ea40e:1465196022,803ebc736f4001103b1fb6aa3cb1692f:-812349211,e59d7c7327400110ae5e807669b4f9c6:-1184862195,5c4d787357400110da1753813926fcd8:-74138848,642df47374400110301ed1af7b0033db:248179012,54fcfc334540011002704bcf7f149139:1624100196,de7c3833774001103fafbe7755ac2a49:-105456988</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-05 16:51:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>4f2560db33a24fa4a6c3b3ad9a469499</sys_id>
+        <sys_metadata>af1cb833874001105880206f8bbb35a2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>submit to get numbers values</sys_name>
+        <sys_package display_value="Adding_Application" source="x_715443_adding_ap">001a38bf870001105880206f8bbb35b3</sys_package>
+        <sys_parent display_value="Numbers">6a7afcbf870001105880206f8bbb359c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Adding_Application">001a38bf870001105880206f8bbb35b3</sys_scope>
+        <sys_scope_delete display_value="">1e32f27045874d5b884d1f775dcebf29</sys_scope_delete>
+        <sys_update_name>sys_script_client_af1cb833874001105880206f8bbb35a2</sys_update_name>
+        <sys_update_version display_value="sys_script_client_af1cb833874001105880206f8bbb35a2">03e228b4871001105880206f8bbb3519</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-05 16:51:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
